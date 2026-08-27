@@ -88,12 +88,13 @@
 
 ## 📚 Documentation
 
-**Only 4 files - all you need:**
+**Only 5 files - all you need:**
 
 1. **`README.md`** ← You are here
-2. **`SIMPLE_TRUTH.md`** ⚠️⚠️⚠️ **READ THIS!** - What's real vs fake (easy language)
-3. **`CONNECT_AI_STUDIO.md`** - 3-step deployment guide
-4. **`MATSYA_AI_DIAGRAM_SIMPLE.md`** - Architecture diagrams for presentations
+2. **`HOW_IT_WORKS.md`** 🎯 **NEW!** - Complete user journey (how fisherman uses the app + AI guidance)
+3. **`SIMPLE_TRUTH.md`** ⚠️⚠️⚠️ **READ THIS!** - What's real vs fake (easy language)
+4. **`CONNECT_AI_STUDIO.md`** - 3-step deployment guide
+5. **`MATSYA_AI_DIAGRAM_SIMPLE.md`** - Architecture diagrams for presentations
 
 ---
 
