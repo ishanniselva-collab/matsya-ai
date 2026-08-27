@@ -51,9 +51,9 @@ export const ResourcesView: React.FC<ResourcesViewProps> = ({ onNavigate, onOpen
 
   const pythonSampleCode = `import requests
 
-# Query SAMUDRA AI Marine Intelligence API for real-time PFZ & Ocean Telemetry
+# Query MATSYA AI Marine Intelligence API for real-time PFZ & Ocean Telemetry
 API_ENDPOINT = "https://api.samudra-marine.gov.in/v1/ocean/telemetry"
-headers = {"Authorization": "Bearer YOUR_ISRO_SAMUDRA_TOKEN"}
+headers = {"Authorization": "Bearer YOUR_ISRO_MATSYA_TOKEN"}
 params = {
     "lat": 13.0827,
     "lng": 80.2707,
@@ -80,7 +80,7 @@ if response.status_code == 200:
             <span>Open Earth Observation & Developer Resources</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#111111]">
-            SAMUDRA AI Data & Resources
+            MATSYA AI Data & Resources
           </h1>
           <p className="text-sm text-[#555555] max-w-3xl leading-relaxed">
             Direct access to satellite observation rasters, scientific oceanographic glossaries, 
@@ -293,7 +293,7 @@ if response.status_code == 200:
                 Developer REST & GeoJSON API Access
               </h2>
               <p className="text-xs text-[#666666]">
-                Integrate SAMUDRA AI oceanographic reasoning and raster queries directly into your spatial workflows or field navigation applications.
+                Integrate MATSYA AI oceanographic reasoning and raster queries directly into your spatial workflows or field navigation applications.
               </p>
             </div>
 
@@ -356,7 +356,7 @@ if response.status_code == 200:
                 Frequently Asked Questions
               </h2>
               <p className="text-xs text-[#666666]">
-                Everything you need to know about SAMUDRA AI, satellite ingestion frequencies, voice models, and access permissions.
+                Everything you need to know about MATSYA AI, satellite ingestion frequencies, voice models, and access permissions.
               </p>
             </div>
 

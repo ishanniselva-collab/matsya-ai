@@ -54,7 +54,7 @@ export const MOCK_RESEARCH_PAPERS: ResearchPaper[] = [
     journal: 'Journal of Indian Ocean Remote Sensing & Space Applications',
     category: 'Earth Observation',
     doi: '10.1016/j.jorssa.2026.04.012',
-    abstract: 'This paper presents a collaborative multi-agent architecture (SAMUDRA AI) integrating thermal infrared channels from INSAT-3DR and optical chlorophyll-a retrievals from Oceansat-3 Ocean Colour Monitor (OCM-3). We demonstrate automated detection of mesoscale thermal fronts along the Coromandel Shelf with 94.2% spatial validation against in-situ ARGO profiling floats.',
+    abstract: 'This paper presents a collaborative multi-agent architecture (MATSYA AI) integrating thermal infrared channels from INSAT-3DR and optical chlorophyll-a retrievals from Oceansat-3 Ocean Colour Monitor (OCM-3). We demonstrate automated detection of mesoscale thermal fronts along the Coromandel Shelf with 94.2% spatial validation against in-situ ARGO profiling floats.',
     keywords: ['Thermal Fronts', 'Oceansat-3', 'INSAT-3DR', 'Agentic AI', 'Bay of Bengal'],
     datasetsUsed: ['Oceansat-3 OCM-3 Chlorophyll', 'INSAT-3DR SST Sounder', 'ARGO Floats'],
     citationsCount: 18,
@@ -112,7 +112,7 @@ export const MOCK_RESEARCH_PAPERS: ResearchPaper[] = [
     doi: '10.1145/3648291.2026.11',
     abstract: 'Artisanal seafarers frequently operate under harsh maritime sunlight and salt spray where smartphone touchscreens are impractical. We evaluate a zero-latency native voice interaction layer supporting Tamil, Telugu, and Hindi dialects with 98.4% speech recognition accuracy in high-noise outboard motor environments.',
     keywords: ['Voice AI', 'Fisherman Assistance', 'Accessibility', 'Multilingual NLP'],
-    datasetsUsed: ['SAMUDRA Voice Corpus', 'INCOIS Marine Bulletins'],
+    datasetsUsed: ['MATSYA Voice Corpus', 'INCOIS Marine Bulletins'],
     citationsCount: 11,
     isDemonstrationRecord: true,
   },
@@ -270,7 +270,7 @@ export const MOCK_GLOSSARY: GlossaryTerm[] = [
     term: 'International Maritime Boundary Line (IMBL)',
     category: 'Maritime Law & Geofencing',
     definition: 'A legally defined boundary delimiting the sovereign territorial waters and Exclusive Economic Zone (EEZ) of adjacent maritime nations under UNCLOS.',
-    practicalApplication: 'Integrated into SAMUDRA AI geofencing to trigger automated multilingual voice alerts when vessels approach within 5 km of international borders.'
+    practicalApplication: 'Integrated into MATSYA AI geofencing to trigger automated multilingual voice alerts when vessels approach within 5 km of international borders.'
   },
   {
     term: 'Chlorophyll-a Concentration',
@@ -296,32 +296,32 @@ export const MOCK_FAQS: FAQItem[] = [
   {
     id: 'faq-01',
     category: 'General',
-    question: 'What is SAMUDRA AI?',
-    answer: 'SAMUDRA AI (Ocean Reasoning & Conversational Assistant) is an autonomous, agentic marine intelligence platform that bridges spaceborne Earth Observation telemetry, numerical ocean forecasts, and real-time human decision-making for fishermen, ocean scientists, and maritime authorities.'
+    question: 'What is MATSYA AI?',
+    answer: 'MATSYA AI (Ocean Reasoning & Conversational Assistant) is an autonomous, agentic marine intelligence platform that bridges spaceborne Earth Observation telemetry, numerical ocean forecasts, and real-time human decision-making for fishermen, ocean scientists, and maritime authorities.'
   },
   {
     id: 'faq-02',
     category: 'Fishermen',
     question: 'How does Fisherman Mode work without internet at deep sea?',
-    answer: 'SAMUDRA AI supports pre-departure voice caching and waypoint synchronization. In coastal zones (up to 12-15 nautical miles), it utilizes regional mobile networks and NavIC / VHF data broadcasts to provide live voice warnings in Tamil, Hindi, Telugu, Malayalam, and Kannada.'
+    answer: 'MATSYA AI supports pre-departure voice caching and waypoint synchronization. In coastal zones (up to 12-15 nautical miles), it utilizes regional mobile networks and NavIC / VHF data broadcasts to provide live voice warnings in Tamil, Hindi, Telugu, Malayalam, and Kannada.'
   },
   {
     id: 'faq-03',
     category: 'ISRO & Science',
     question: 'Which satellite sensors are ingested into the platform?',
-    answer: 'SAMUDRA AI directly processes rasters and swaths from INSAT-3DR (Thermal Sounder & Imager), Oceansat-3 (OCM-3 bio-optics and OSCAT-3 scatterometer wind vectors), SARAL/AltiKa altimetry, and INCOIS SWAN numerical wave model runs.'
+    answer: 'MATSYA AI directly processes rasters and swaths from INSAT-3DR (Thermal Sounder & Imager), Oceansat-3 (OCM-3 bio-optics and OSCAT-3 scatterometer wind vectors), SARAL/AltiKa altimetry, and INCOIS SWAN numerical wave model runs.'
   },
   {
     id: 'faq-04',
     category: 'AI & Technology',
     question: 'How do the collaborative AI agents work together?',
-    answer: 'Rather than a monolithic chatbot, SAMUDRA AI orchestrates 10 specialized sub-agents (Planner, Ocean, Weather, PFZ, Geospatial, Risk, Route, Voice, Visualization, Reporting). When a query is submitted, the Planner breaks it down, dispatches tasks in parallel, and fuses the evidence into an explainable, cited recommendation.'
+    answer: 'Rather than a monolithic chatbot, MATSYA AI orchestrates 10 specialized sub-agents (Planner, Ocean, Weather, PFZ, Geospatial, Risk, Route, Voice, Visualization, Reporting). When a query is submitted, the Planner breaks it down, dispatches tasks in parallel, and fuses the evidence into an explainable, cited recommendation.'
   },
   {
     id: 'faq-05',
     category: 'ISRO & Science',
     question: 'How can researchers and ISRO scientists access raw datasets?',
-    answer: 'Authorized research users can log into the SAMUDRA AI Operations Center via institutional credentials to execute spatial-temporal correlation queries, inspect full-resolution NetCDF/GeoTIFF rasters, and generate certified intelligence dossiers.'
+    answer: 'Authorized research users can log into the MATSYA AI Operations Center via institutional credentials to execute spatial-temporal correlation queries, inspect full-resolution NetCDF/GeoTIFF rasters, and generate certified intelligence dossiers.'
   }
 ];
 

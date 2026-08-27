@@ -1,6 +1,6 @@
 # 🚀 CONNECT TO GOOGLE AI STUDIO - 3 STEPS
 
-**Get SAMUDRA AI running with Google's Gemini AI in 3 minutes!**
+**Get MATSYA AI running with Google's Gemini AI in 3 minutes!**
 
 ---
 
@@ -50,7 +50,7 @@
 
 6. **Done!** Railway gives you a URL like:
    ```
-   https://samudra-ai.up.railway.app
+   https://matsya-ai.up.railway.app
    ```
 
 ### Option B: Render
@@ -144,7 +144,7 @@
 
 ## 🎯 THAT'S IT!
 
-Your SAMUDRA AI is now powered by Google's Gemini AI! 🎉
+Your MATSYA AI is now powered by Google's Gemini AI! 🎉
 
 ### What Gemini Does:
 

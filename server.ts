@@ -23,7 +23,7 @@ app.use(express.json());
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
-    service: 'SAMUDRA AI (SIH26176) Multi-Agent Marine Intelligence Platform',
+    service: 'MATSYA AI (SIH26176) Multi-Agent Marine Intelligence Platform',
     version: '2.0.0-multi-agent',
     timestamp: new Date().toISOString(),
     aiReady: !!process.env.GEMINI_API_KEY,
@@ -348,7 +348,7 @@ app.post('/api/report/generate', (req, res) => {
 
   const report = {
     id: `REP-${Date.now()}`,
-    title: `SAMUDRA AI Marine Intelligence Assessment: ${region}`,
+    title: `MATSYA AI Marine Intelligence Assessment: ${region}`,
     region,
     date: '22 Aug 2026',
     timeframe,
@@ -389,7 +389,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`SAMUDRA AI Multi-Agent Intelligence Server running on http://0.0.0.0:${PORT}`);
+    console.log(`MATSYA AI Multi-Agent Intelligence Server running on http://0.0.0.0:${PORT}`);
   });
 }
 

@@ -124,7 +124,7 @@ export class HistoricalCausalAnalyticsAgent {
       },
       {
         category: 'MODEL_AI_INTERPRETATION',
-        title: '4. SAMUDRA AI Domain Synthesis & Prognosis',
+        title: '4. MATSYA AI Domain Synthesis & Prognosis',
         badgeColor: 'violet',
         items: [
           {
@@ -132,7 +132,7 @@ export class HistoricalCausalAnalyticsAgent {
             statement: 'Fish shoals have not vanished from the basin; rather, they have relocated 35–45 km offshore to feed along the deeper thermal convergence front where zooplankton remains abundant.',
             metricValue: 'Offshore Migration',
             confidencePercent: 89,
-            dataSource: 'SAMUDRA AI Ecosystem Reasoning Model',
+            dataSource: 'MATSYA AI Ecosystem Reasoning Model',
           },
           {
             title: 'Forecast Recovery Window',

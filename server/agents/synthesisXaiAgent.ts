@@ -268,10 +268,10 @@ export class SynthesisXaiAgent {
         defaultAnswer = `समुद्रा एआई ने ${dist} किमी उत्तर-पूर्व (${dir}) में अत्यधिक अनुकूल संभावित मत्स्य पालन क्षेत्र (PFZ) की पहचान की है। समुद्र का तापमान ${sst}°C और क्लोरोफिल ${chl} mg/m³ है। समुद्री जोखिम कम और सुरक्षित है।`;
         spokenSummary = `${dist} किमी उत्तर-पूर्व में अनुकूल मत्स्य क्षेत्र मिला है। समुद्र शांत और सुरक्षित है।`;
       } else if (language === 'te') {
-        defaultAnswer = `SAMUDRA AI ${dist} కి.మీ ఈశాన్యంలో (${dir}) అనుకూలమైన చేపల వేట ప్రాంతాన్ని (PFZ) గుర్తించింది. సముద్ర ఉష్ணోగ్రత ${sst}°C మరియు క్లోరోఫిల్ ${chl} mg/m³. ప్రమాద స్థాయి చాలా తక్కువ.`;
+        defaultAnswer = `MATSYA AI ${dist} కి.మీ ఈశాన్యంలో (${dir}) అనుకూలమైన చేపల వేట ప్రాంతాన్ని (PFZ) గుర్తించింది. సముద్ర ఉష్ணోగ్రత ${sst}°C మరియు క్లోరోఫిల్ ${chl} mg/m³. ప్రమాద స్థాయి చాలా తక్కువ.`;
         spokenSummary = `${dist} కి.మీ దూరంలో మంచి చేపల వేట ప్రాంతం ఉంది.`;
       } else {
-        defaultAnswer = `SAMUDRA AI has identified a high-suitability Potential Fishing Zone (PFZ) ${dist} km ${dir}. Sea Surface Temperature is ${sst}°C with an intense chlorophyll front (${chl} mg/m³). Navigational risk is LOW and sea swell is 0.8m.`;
+        defaultAnswer = `MATSYA AI has identified a high-suitability Potential Fishing Zone (PFZ) ${dist} km ${dir}. Sea Surface Temperature is ${sst}°C with an intense chlorophyll front (${chl} mg/m³). Navigational risk is LOW and sea swell is 0.8m.`;
         spokenSummary = `The nearest high-probability fishing zone is ${dist} kilometres northeast. Water temperature is ${sst} degrees and wave conditions are calm at 0.8 metres.`;
       }
     }

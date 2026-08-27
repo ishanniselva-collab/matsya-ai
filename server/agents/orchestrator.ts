@@ -182,7 +182,7 @@ export class MultiAgentOrchestrator {
 
     // STAGE 3: OPTIONAL GEMINI LLM CORROBORATION WITH RICH MULTI-AGENT CONTEXT
     let geminiText: string | null = null;
-    const prompt = `You are SAMUDRA AI (SIH26176), an advanced Multi-Agent Marine Intelligence system for Indian fishermen and ocean researchers.
+    const prompt = `You are MATSYA AI (SIH26176), an advanced Multi-Agent Marine Intelligence system for Indian fishermen and ocean researchers.
 User Query: "${query}"
 Language: ${language}
 Location: ${locName} (${lat.toFixed(4)}°N, ${lng.toFixed(4)}°E)

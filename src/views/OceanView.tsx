@@ -20,7 +20,7 @@ import { COASTAL_REGIONS } from '../data/mockMarineData';
 interface OceanViewProps {
   onNavigate?: (view: string) => void;
   onAskOrca?: (location: MarineLocationData, variable: OceanVariable) => void;
-  onAskSamudra?: (location: MarineLocationData, variable: OceanVariable) => void;
+  onAskMatsya?: (location: MarineLocationData, variable: OceanVariable) => void;
   onOpenVoiceModal: (query?: string) => void;
   initialVariable?: OceanVariable;
 }
@@ -28,7 +28,7 @@ interface OceanViewProps {
 export const OceanView: React.FC<OceanViewProps> = ({
   onNavigate,
   onAskOrca,
-  onAskSamudra,
+  onAskMatsya,
   onOpenVoiceModal,
   initialVariable = 'chlorophyll',
 }) => {
@@ -43,8 +43,8 @@ Salinity: ${loc.salinity} PSU
 Wave Height: ${loc.waveHeight} m
 Chlorophyll: ${loc.chlorophyll} mg/m³`;
 
-    if (onAskSamudra) {
-      onAskSamudra(loc, v);
+    if (onAskMatsya) {
+      onAskMatsya(loc, v);
     } else if (onAskOrca) {
       onAskOrca(loc, v);
     } else {
@@ -64,7 +64,7 @@ Chlorophyll: ${loc.chlorophyll} mg/m³`;
           <div>
             <div className="flex items-center gap-2">
               <h1 className="font-bold text-sm tracking-tight text-[#111111] uppercase font-mono">
-                SAMUDRA AI — Global 3D Ocean GIS
+                MATSYA AI — Global 3D Ocean GIS
               </h1>
               <span className="text-[9px] px-1.5 py-0.5 rounded font-mono font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
                 LIVE ORBIT INGESTION
@@ -82,7 +82,7 @@ Chlorophyll: ${loc.chlorophyll} mg/m³`;
             className="px-3 py-1.5 bg-[#111111] hover:bg-black text-white text-xs font-semibold rounded-lg flex items-center gap-1.5 transition shadow-xs"
           >
             <Mic className="w-3.5 h-3.5 text-teal-400" />
-            <span>SAMUDRA AI Voice Analysis</span>
+            <span>MATSYA AI Voice Analysis</span>
           </button>
         </div>
       </div>
@@ -91,7 +91,7 @@ Chlorophyll: ${loc.chlorophyll} mg/m³`;
       <div className="flex-1 relative w-full h-[calc(100vh-10rem)] min-h-[580px] bg-[#111111]">
         <GlobalOceanGlobe 
           initialVariable={selectedVar}
-          onAskSamudra={(loc, v) => handleAsk(loc, v)}
+          onAskMatsya={(loc, v) => handleAsk(loc, v)}
           onAskOrca={(loc, v) => handleAsk(loc, v)}
           onOpenVoiceModal={onOpenVoiceModal}
           onNavigate={onNavigate}

@@ -192,7 +192,7 @@ export const MissionConsoleView: React.FC = () => {
                 <div className="flex items-center justify-between pb-2 border-b border-[#E5E5E5]">
                   <span className="font-bold text-[#111111] flex items-center gap-2">
                     <Sparkles className="w-4 h-4 text-teal-700" />
-                    SAMUDRA AI Multi-Agent Synthesized Output
+                    MATSYA AI Multi-Agent Synthesized Output
                   </span>
                   <span className="text-[10px] font-mono px-2 py-0.5 rounded font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
                     Confidence: {orchestrationResult.confidence}%

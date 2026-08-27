@@ -61,7 +61,7 @@ export const CinematicOceanHero: React.FC<CinematicOceanHeroProps> = ({
           {/* Mission & Project Name Tag */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-white text-xs font-mono font-bold tracking-wider uppercase shadow-xl">
             <span className="w-2 h-2 rounded-full bg-teal-400 animate-pulse" />
-            <span className="text-teal-300 font-extrabold text-sm tracking-wide">SAMUDRA AI</span>
+            <span className="text-teal-300 font-extrabold text-sm tracking-wide">MATSYA AI</span>
             <span className="text-white/40">|</span>
             <span className="text-neutral-300">SIH26176</span>
           </div>
@@ -268,7 +268,7 @@ export const CinematicOceanHero: React.FC<CinematicOceanHeroProps> = ({
             className="px-6 py-3 bg-[#111111] hover:bg-black text-white text-xs font-bold font-mono rounded-xl shadow-lg transition flex items-center gap-2 border border-white/20"
           >
             <Mic className="w-4 h-4 text-teal-400" />
-            <span>SAMUDRA VOICE AI</span>
+            <span>MATSYA VOICE AI</span>
           </button>
 
           <button

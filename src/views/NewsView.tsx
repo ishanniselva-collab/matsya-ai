@@ -56,7 +56,7 @@ export const NewsView: React.FC<NewsViewProps> = ({ onNavigate, onOpenVoiceModal
             <span>Operational Dispatches & Satellite Bulletins</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#111111]">
-            SAMUDRA AI Marine Intelligence News
+            MATSYA AI Marine Intelligence News
           </h1>
           <p className="text-sm text-[#555555] max-w-3xl leading-relaxed">
             Real-time developments in ocean remote sensing, coastal fisheries advisories, 
@@ -209,7 +209,7 @@ export const NewsView: React.FC<NewsViewProps> = ({ onNavigate, onOpenVoiceModal
                     {activeArticle.summary}
                   </p>
                   <p>
-                    Operational integration with the SAMUDRA AI multi-agent engine ensures that telemetry updates from this bulletin are immediately accessible to coastal field units, state fisheries departments, and maritime search-and-rescue teams.
+                    Operational integration with the MATSYA AI multi-agent engine ensures that telemetry updates from this bulletin are immediately accessible to coastal field units, state fisheries departments, and maritime search-and-rescue teams.
                   </p>
                   <p>
                     Data validation continues through synchronized passes with GHRSST Level 4 products and ground-truthed coastal station buoys maintained by the Ministry of Earth Sciences.
@@ -217,7 +217,7 @@ export const NewsView: React.FC<NewsViewProps> = ({ onNavigate, onOpenVoiceModal
                 </div>
 
                 <div className="p-3 bg-teal-50 border border-teal-200 rounded-xl text-teal-900 text-[11px]">
-                  <strong>Interactive Synthesis:</strong> Ask the SAMUDRA Voice AI for a localized summary of how this news affects your local coastal sector.
+                  <strong>Interactive Synthesis:</strong> Ask the MATSYA Voice AI for a localized summary of how this news affects your local coastal sector.
                 </div>
               </div>
 

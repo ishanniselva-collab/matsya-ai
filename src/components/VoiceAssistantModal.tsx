@@ -311,7 +311,7 @@ export const VoiceAssistantModal: React.FC<VoiceAssistantModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="text-xs font-bold text-[#111111] uppercase tracking-wider">SAMUDRA AI Voice Assistant</h3>
+                <h3 className="text-xs font-bold text-[#111111] uppercase tracking-wider">MATSYA AI Voice Assistant</h3>
                 {getStateBadge()}
               </div>
               <p className="text-[11px] text-[#555555]">Task-Based Autonomous Marine Intelligence Agent</p>
@@ -357,9 +357,9 @@ export const VoiceAssistantModal: React.FC<VoiceAssistantModalProps> = ({
               <div className="w-14 h-14 rounded-full bg-[#F7F7F5] border border-[#E5E5E5] text-[#111111] mx-auto flex items-center justify-center shadow-xs">
                 <Mic className="w-6 h-6" />
               </div>
-              <h4 className="text-sm font-bold text-[#111111]">Tap the microphone and ask SAMUDRA AI</h4>
+              <h4 className="text-sm font-bold text-[#111111]">Tap the microphone and ask MATSYA AI</h4>
               <p className="text-xs text-[#555555] max-w-md mx-auto">
-                Speak in Tamil, Hindi, Telugu, Malayalam, Kannada, or English. SAMUDRA AI executes silent domain sub-agents and provides a single synthesized spoken response.
+                Speak in Tamil, Hindi, Telugu, Malayalam, Kannada, or English. MATSYA AI executes silent domain sub-agents and provides a single synthesized spoken response.
               </p>
 
               {/* Sample Prompts */}
@@ -397,7 +397,7 @@ export const VoiceAssistantModal: React.FC<VoiceAssistantModalProps> = ({
                 }`}
               >
                 <div className="flex items-center justify-between gap-4 mb-1 opacity-75 text-[10px]">
-                  <span className="font-bold uppercase tracking-wider">{msg.role === 'user' ? 'You' : 'SAMUDRA AI Synthesis'}</span>
+                  <span className="font-bold uppercase tracking-wider">{msg.role === 'user' ? 'You' : 'MATSYA AI Synthesis'}</span>
                   <span>{msg.time}</span>
                 </div>
                 <p className="text-xs whitespace-pre-wrap leading-relaxed">{msg.text}</p>
@@ -512,7 +512,7 @@ export const VoiceAssistantModal: React.FC<VoiceAssistantModalProps> = ({
                   handleStartListening();
                 }
               }}
-              title={taskState === 'LISTENING' ? 'Stop Listening' : 'Speak to SAMUDRA AI'}
+              title={taskState === 'LISTENING' ? 'Stop Listening' : 'Speak to MATSYA AI'}
               className={`p-2.5 rounded-lg font-semibold transition flex items-center justify-center shadow-xs disabled:opacity-40 ${
                 taskState === 'LISTENING'
                   ? 'bg-rose-600 text-white animate-pulse'
@@ -531,7 +531,7 @@ export const VoiceAssistantModal: React.FC<VoiceAssistantModalProps> = ({
                   startNewTask(transcript);
                 }
               }}
-              title="Submit Query to SAMUDRA AI"
+              title="Submit Query to MATSYA AI"
               className="p-2.5 rounded-lg bg-white border border-[#E5E5E5] text-[#111111] hover:bg-[#F7F7F5] disabled:opacity-40 transition"
             >
               <Send className="w-4 h-4" />

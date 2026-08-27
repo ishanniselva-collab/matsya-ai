@@ -282,11 +282,11 @@ export const AskOrcaView: React.FC<AskOrcaViewProps> = ({
               <span>Autonomous Task-Based Multi-Agent Marine Assistant</span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#111111]">
-              Ask SAMUDRA AI Marine Intelligence
+              Ask MATSYA AI Marine Intelligence
             </h1>
             <p className="text-sm text-[#555555] max-w-3xl leading-relaxed">
               Submit oceanographic queries in natural text or spoken native dialect. 
-              SAMUDRA AI executes a discrete single task, coordinates required specialized agents silently, and delivers a single synthesized spoken response.
+              MATSYA AI executes a discrete single task, coordinates required specialized agents silently, and delivers a single synthesized spoken response.
             </p>
           </div>
 
@@ -363,7 +363,7 @@ export const AskOrcaView: React.FC<AskOrcaViewProps> = ({
                     ? 'bg-rose-600 text-white animate-pulse'
                     : 'bg-[#F0F0F0] text-[#333333] hover:bg-[#E5E5E5]'
                 }`}
-                title={taskState === 'LISTENING' ? 'Stop Listening' : 'Speak to SAMUDRA AI'}
+                title={taskState === 'LISTENING' ? 'Stop Listening' : 'Speak to MATSYA AI'}
               >
                 {taskState === 'LISTENING' ? <MicOff className="w-3.5 h-3.5" /> : <Mic className="w-3.5 h-3.5" />}
               </button>
@@ -437,7 +437,7 @@ export const AskOrcaView: React.FC<AskOrcaViewProps> = ({
               <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-[#E5E5E5] gap-3">
                 <div className="flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
-                  <span className="font-mono text-xs font-bold text-[#111111]">SAMUDRA AI SYNTHESIZED MARINE INTELLIGENCE</span>
+                  <span className="font-mono text-xs font-bold text-[#111111]">MATSYA AI SYNTHESIZED MARINE INTELLIGENCE</span>
                   <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-teal-50 text-teal-800 font-bold border border-teal-200">
                     {result.confidence}% Confidence
                   </span>

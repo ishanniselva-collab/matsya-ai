@@ -92,12 +92,12 @@ export const FishermanViewNew: React.FC<FishermanViewNewProps> = ({
       setHasGreeted(true);
 
       const greetings: Record<string, string> = {
-        ta: `வணக்கம் ${fishermanProfile.name}! நான் சமுத்ரா (SAMUDRA). இன்று எங்கே செல்ல விரும்புகிறீர்கள்?`,
+        ta: `வணக்கம் ${fishermanProfile.name}! நான் சமுத்ரா (MATSYA). இன்று எங்கே செல்ல விரும்புகிறீர்கள்?`,
         hi: `नमस्ते ${fishermanProfile.name}! मैं समुद्रा हूं। आज आप कहाँ जाना चाहेंगे?`,
         te: `నమస్కారం ${fishermanProfile.name}! నేను సముద్ర. ఈరోజు మీరు ఎక్కడికి వెళ్లాలనుకుంటున్నారు?`,
         ml: `നമസ്കാരം ${fishermanProfile.name}! ഞാൻ സമുദ്ര. ഇന്ന് നിങ്ങൾ എവിടേക്ക് പോകണം?`,
         kn: `ನಮಸ್ಕಾರ ${fishermanProfile.name}! ನಾನು ಸಮುದ್ರ. ಇಂದು ನೀವು ಎಲ್ಲಿಗೆ ಹೋಗಲು ಬಯಸುತ್ತೀರಿ?`,
-        en: `Hello ${fishermanProfile.name}! I'm SAMUDRA. Where would you like to go today?`,
+        en: `Hello ${fishermanProfile.name}! I'm MATSYA. Where would you like to go today?`,
       };
 
       const greeting = greetings[selectedLang] || greetings['en'];
@@ -335,7 +335,7 @@ export const FishermanViewNew: React.FC<FishermanViewNewProps> = ({
           <div className="flex items-center gap-2">
             <Anchor className="w-5 h-5 text-teal-400" />
             <div>
-              <h1 className="text-sm font-bold">SAMUDRA AI</h1>
+              <h1 className="text-sm font-bold">MATSYA AI</h1>
               <p className="text-[10px] text-teal-200">Fisherman Companion</p>
             </div>
           </div>
@@ -398,7 +398,7 @@ export const FishermanViewNew: React.FC<FishermanViewNewProps> = ({
               <TacticalMap
                 selectedPFZId={selectedPFZ.id}
                 onSelectPFZ={(pfz) => setSelectedPFZ(pfz)}
-                onAskSamudraPFZ={(pfz) => startFishermanTask(`Why is ${pfz.name} recommended today?`)}
+                onAskMatsyaPFZ={(pfz) => startFishermanTask(`Why is ${pfz.name} recommended today?`)}
                 pfzZones={livePfzZones.length > 0 ? livePfzZones : undefined}
                 isLoading={isMapLoading}
                 centerLat={geoPos.latitude}
@@ -462,7 +462,7 @@ export const FishermanViewNew: React.FC<FishermanViewNewProps> = ({
 
                   <div>
                     <h3 className="text-sm font-bold text-gray-900 mb-1">
-                      {taskState === 'LISTENING' ? 'Listening...' : 'Talk to SAMUDRA'}
+                      {taskState === 'LISTENING' ? 'Listening...' : 'Talk to MATSYA'}
                     </h3>
                     <p className="text-xs text-gray-600">
                       {taskState === 'LISTENING' && voiceQuery ? `"${voiceQuery}"` :
@@ -511,7 +511,7 @@ export const FishermanViewNew: React.FC<FishermanViewNewProps> = ({
                     <div className="text-left p-3 rounded-lg bg-gray-50 border border-gray-200">
                       <div className="flex items-center gap-2 mb-1">
                         <Sparkles className="w-3.5 h-3.5 text-teal-600" />
-                        <span className="text-[10px] font-bold text-gray-900">SAMUDRA Says:</span>
+                        <span className="text-[10px] font-bold text-gray-900">MATSYA Says:</span>
                       </div>
                       <p className="text-xs text-gray-800 leading-relaxed">{lastAnswer}</p>
                     </div>
@@ -571,7 +571,7 @@ export const FishermanViewNew: React.FC<FishermanViewNewProps> = ({
                     {liveRisk?.overallRisk || 'Awaiting Data'}
                   </h3>
                   <p className="text-xs text-gray-700">
-                    {liveRisk?.advisory || 'Ask SAMUDRA for current conditions'}
+                    {liveRisk?.advisory || 'Ask MATSYA for current conditions'}
                   </p>
                 </div>
               </div>

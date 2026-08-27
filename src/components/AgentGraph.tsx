@@ -57,7 +57,7 @@ export const AgentGraph: React.FC<AgentGraphProps> = ({
               Demonstrable Multi-Agent AI Architecture
             </h3>
             <p className="text-[11px] text-[#555555]">
-              SAMUDRA AI Orchestrator executes collaborative domain-specialist agents
+              MATSYA AI Orchestrator executes collaborative domain-specialist agents
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export const AgentGraph: React.FC<AgentGraphProps> = ({
           <Bot className="w-5 h-5 text-teal-400" />
           <div>
             <span className="text-[10px] uppercase font-bold tracking-widest text-gray-300 block font-mono">Orchestrator Core</span>
-            <span className="text-xs font-bold text-white">SAMUDRA AI Autonomous Multi-Agent Engine</span>
+            <span className="text-xs font-bold text-white">MATSYA AI Autonomous Multi-Agent Engine</span>
           </div>
         </div>
       </div>

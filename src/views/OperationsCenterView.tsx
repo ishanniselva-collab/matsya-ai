@@ -107,7 +107,7 @@ export const OperationsCenterView: React.FC<OperationsCenterViewProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="font-bold text-sm tracking-tight uppercase font-mono">
-                  SAMUDRA AI Operations Center • ISRO & MoES Research Portal
+                  MATSYA AI Operations Center • ISRO & MoES Research Portal
                 </h1>
                 <span className="text-[9px] px-1.5 py-0.5 rounded font-mono font-bold bg-teal-900/60 text-teal-300 border border-teal-500/40">
                   {user.badge}
@@ -388,7 +388,7 @@ export const OperationsCenterView: React.FC<OperationsCenterViewProps> = ({
               </div>
 
               <div className="p-4 bg-teal-50 border border-teal-200 rounded-xl space-y-2 text-xs">
-                <span className="font-bold text-teal-950 block">SAMUDRA AI Multi-Agent Resolution:</span>
+                <span className="font-bold text-teal-950 block">MATSYA AI Multi-Agent Resolution:</span>
                 <p className="text-teal-900 leading-relaxed">
                   The Route Optimization Agent calculated a certified waypoint corridor (Bearing 072°, 24 NM) enabling motorized crafts to safely reach the offshore thermal boundary with 35% fuel savings.
                 </p>

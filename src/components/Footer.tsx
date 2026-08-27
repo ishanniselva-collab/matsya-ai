@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-sm tracking-tight text-[#111111] font-mono leading-none">
-                  SAMUDRA AI
+                  MATSYA AI
                 </span>
                 <span className="text-[10px] font-bold text-teal-800 uppercase font-sans mt-0.5">
                   Marine Intelligence Platform
@@ -169,7 +169,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           </div>
 
           <div className="text-right">
-            <p>© 2026 SAMUDRA AI. Developed for Earth Observation & Coastal Community Safety.</p>
+            <p>© 2026 MATSYA AI. Developed for Earth Observation & Coastal Community Safety.</p>
           </div>
         </div>
 

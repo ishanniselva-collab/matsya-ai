@@ -168,7 +168,7 @@ export class VectorKnowledgeStore {
         source: 'Indian Coast Guard & Ministry of External Affairs Advisory',
         timestamp: '2026-07-20T00:00:00Z',
         coordinates: { lat: 9.25, lng: 79.4 },
-        content: 'The International Maritime Boundary Line (IMBL) in Palk Strait and Gulf of Mannar is governed by bilateral treaties (1974 and 1976). SAMUDRA AI enforces a 3-tier boundary alert: 10 km warning buffer (CAUTION), 5 km proximity boundary (HIGH ALERT with audio siren), and 0 km line crossing (CRITICAL RESTRICTION). Mechanized vessels must maintain a safe starboard drift clear of sovereign coordinates.',
+        content: 'The International Maritime Boundary Line (IMBL) in Palk Strait and Gulf of Mannar is governed by bilateral treaties (1974 and 1976). MATSYA AI enforces a 3-tier boundary alert: 10 km warning buffer (CAUTION), 5 km proximity boundary (HIGH ALERT with audio siren), and 0 km line crossing (CRITICAL RESTRICTION). Mechanized vessels must maintain a safe starboard drift clear of sovereign coordinates.',
         tags: ['geofence', 'imbl', 'boundary', 'safety', 'coast guard', 'palk strait'],
       },
       {

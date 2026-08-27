@@ -75,12 +75,12 @@ export const FishermanView: React.FC<FishermanViewProps> = ({ onOpenGlobalExplor
 
       // Generate greeting in selected language
       const greetings: Record<string, string> = {
-        ta: `வணக்கம் ${fishermanProfile.name}! நான் சமுத்ரா (SAMUDRA). இன்று எங்கே செல்ல விரும்புகிறீர்கள்?`,
+        ta: `வணக்கம் ${fishermanProfile.name}! நான் சமுத்ரா (MATSYA). இன்று எங்கே செல்ல விரும்புகிறீர்கள்?`,
         hi: `नमस्ते ${fishermanProfile.name}! मैं समुद्रा हूं। आज आप कहाँ जाना चाहेंगे?`,
         te: `నమస్కారం ${fishermanProfile.name}! నేను సముద్ర. ఈరోజు మీరు ఎక్కడికి వెళ్లాలనుకుంటున్నారు?`,
         ml: `നമസ്കാരം ${fishermanProfile.name}! ഞാൻ സമുദ്ര. ഇന്ന് നിങ്ങൾ എവിടേക്ക് പോകണം?`,
         kn: `ನಮಸ್ಕಾರ ${fishermanProfile.name}! ನಾನು ಸಮುದ್ರ. ಇಂದು ನೀವು ಎಲ್ಲಿಗೆ ಹೋಗಲು ಬಯಸುತ್ತೀರಿ?`,
-        en: `Hello ${fishermanProfile.name}! I'm SAMUDRA. Where would you like to go today?`,
+        en: `Hello ${fishermanProfile.name}! I'm MATSYA. Where would you like to go today?`,
       };
 
       const greeting = greetings[selectedLang] || greetings['en'];
@@ -393,13 +393,13 @@ export const FishermanView: React.FC<FishermanViewProps> = ({ onOpenGlobalExplor
             )}
           </div>
 
-          {/* SAMUDRA AI Spoken Answer Card */}
+          {/* MATSYA AI Spoken Answer Card */}
           {lastAnswer && (
             <div className="p-4 rounded-xl bg-[#F7F7F5] border border-[#E5E5E5] text-left text-xs shadow-2xs space-y-2">
               <div className="flex items-center justify-between">
                 <span className="font-bold text-[#111111] flex items-center gap-1.5">
                   <Sparkles className="w-4 h-4 text-teal-600" />
-                  SAMUDRA Voice Advisory
+                  MATSYA Voice Advisory
                 </span>
                 {taskState === 'SPEAKING' ? (
                   <button

@@ -21,7 +21,7 @@ import { MOCK_MARINE_LOCATIONS } from '../data/mockMarineData';
 
 interface GlobalOceanGlobeProps {
   onAskOrca?: (location: MarineLocationData, variable: OceanVariable) => void;
-  onAskSamudra?: (location: MarineLocationData, variable: OceanVariable) => void;
+  onAskMatsya?: (location: MarineLocationData, variable: OceanVariable) => void;
   onOpenVoiceModal?: (query: string) => void;
   onNavigate?: (view: string) => void;
   initialVariable?: OceanVariable;
@@ -33,7 +33,7 @@ const COPERNICUS_URL = "https://myoceanglobe.marine.copernicus.eu/?pk_vid=679d37
 
 export const GlobalOceanGlobe: React.FC<GlobalOceanGlobeProps> = ({
   onAskOrca,
-  onAskSamudra,
+  onAskMatsya,
   onOpenVoiceModal,
   onNavigate,
   initialVariable = 'temperature',
@@ -49,7 +49,7 @@ export const GlobalOceanGlobe: React.FC<GlobalOceanGlobeProps> = ({
   const [selectedLocation, setSelectedLocation] = useState<MarineLocationData>(MOCK_MARINE_LOCATIONS.chennai);
   const [activeVariable, setActiveVariable] = useState<OceanVariable>(initialVariable);
 
-  const handleQuerySamudra = () => {
+  const handleQueryMatsya = () => {
     const formattedQuery = `Analyze the selected ocean location:
 Latitude: ${selectedLocation.latitude.toFixed(4)}
 Longitude: ${selectedLocation.longitude.toFixed(4)}
@@ -58,8 +58,8 @@ Salinity: ${selectedLocation.salinity} PSU
 Wave Height: ${selectedLocation.waveHeight} m
 Chlorophyll: ${selectedLocation.chlorophyll} mg/m³`;
 
-    if (onAskSamudra) {
-      onAskSamudra(selectedLocation, activeVariable);
+    if (onAskMatsya) {
+      onAskMatsya(selectedLocation, activeVariable);
     } else if (onAskOrca) {
       onAskOrca(selectedLocation, activeVariable);
     } else if (onOpenVoiceModal) {
@@ -107,7 +107,7 @@ Chlorophyll: ${selectedLocation.chlorophyll} mg/m³`;
         isFullScreen ? 'fixed inset-0 z-50' : 'min-h-[600px]'
       }`}
     >
-      {/* 1. TOP FLOATING SAMUDRA AI HUD BAR */}
+      {/* 1. TOP FLOATING MATSYA AI HUD BAR */}
       <div className="absolute top-3 left-3 right-3 z-30 pointer-events-none flex flex-wrap items-center justify-between gap-2">
         
         {/* Brand & Ingestion Status */}
@@ -118,7 +118,7 @@ Chlorophyll: ${selectedLocation.chlorophyll} mg/m³`;
           <div>
             <div className="flex items-center gap-2">
               <span className="text-xs font-bold text-white tracking-wide font-mono uppercase">
-                SAMUDRA AI
+                MATSYA AI
               </span>
               <span className="text-[9px] px-1.5 py-0.2 rounded font-mono font-bold bg-teal-500/20 text-teal-300 border border-teal-500/40">
                 COPERNICUS MYOCEAN LIVE
@@ -133,14 +133,14 @@ Chlorophyll: ${selectedLocation.chlorophyll} mg/m³`;
         {/* Action Controls */}
         <div className="bg-black/85 backdrop-blur-md px-2 py-1.5 rounded-xl border border-white/20 shadow-xl pointer-events-auto flex items-center gap-2">
           
-          {/* Query SAMUDRA AI */}
+          {/* Query MATSYA AI */}
           <button
             id="hud-query-samudra-btn"
-            onClick={handleQuerySamudra}
+            onClick={handleQueryMatsya}
             className="px-3 py-1.5 bg-teal-600 hover:bg-teal-500 text-white rounded-lg text-[11px] font-bold font-mono transition flex items-center gap-1.5 shadow-md uppercase tracking-wider cursor-pointer"
           >
             <Sparkles className="w-3.5 h-3.5 text-teal-200" />
-            <span>QUERY SAMUDRA AI</span>
+            <span>QUERY MATSYA AI</span>
           </button>
 
           {/* Open in New Window */}
@@ -202,7 +202,7 @@ Chlorophyll: ${selectedLocation.chlorophyll} mg/m³`;
         />
       </div>
 
-      {/* 4. SAMUDRA AI TELEMETRY & LOCATION DRILL-DOWN CARD (COLLAPSIBLE / FLOATING) */}
+      {/* 4. MATSYA AI TELEMETRY & LOCATION DRILL-DOWN CARD (COLLAPSIBLE / FLOATING) */}
       <div className="absolute bottom-4 left-4 z-30 pointer-events-none">
         {showTelemetryCard ? (
           <div className="bg-black/90 backdrop-blur-xl border border-white/20 rounded-2xl p-4 shadow-2xl pointer-events-auto text-white w-72 sm:w-80 space-y-3">
@@ -278,11 +278,11 @@ Chlorophyll: ${selectedLocation.chlorophyll} mg/m³`;
             {/* Action Button */}
             <button
               id="telemetry-card-query-samudra-btn"
-              onClick={handleQuerySamudra}
+              onClick={handleQueryMatsya}
               className="w-full py-2 bg-teal-600 hover:bg-teal-500 text-white font-bold text-xs rounded-xl shadow-lg transition flex items-center justify-center gap-1.5 uppercase font-mono tracking-wider cursor-pointer"
             >
               <Sparkles className="w-3.5 h-3.5 text-teal-200" />
-              <span>QUERY SAMUDRA AI</span>
+              <span>QUERY MATSYA AI</span>
             </button>
           </div>
         ) : (

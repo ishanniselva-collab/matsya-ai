@@ -39,7 +39,7 @@ interface AgentDetail {
 const AGENTS_LIST: AgentDetail[] = [
   {
     id: 'planner',
-    name: 'SAMUDRA Orchestrator (Planner Agent)',
+    name: 'MATSYA Orchestrator (Planner Agent)',
     role: 'Decomposes complex human questions into multi-agent sub-goals',
     category: 'Planning',
     purpose: 'Interprets user intent in colloquial marine vernacular, establishes hypotheses, and coordinates parallel agent execution.',
@@ -141,7 +141,7 @@ export const TechnologyView: React.FC<TechnologyViewProps> = ({ onNavigate, onOp
             <span>Agentic AI & Earth Observation Architecture</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#111111]">
-            Technology Behind SAMUDRA AI
+            Technology Behind MATSYA AI
           </h1>
           <p className="text-sm text-[#555555] max-w-3xl leading-relaxed">
             An autonomous multi-agent reasoning architecture engineered to fuse spaceborne remote sensing, 
@@ -199,7 +199,7 @@ export const TechnologyView: React.FC<TechnologyViewProps> = ({ onNavigate, onOp
             {/* Layer 2: Orchestration & Agents */}
             <div className="space-y-2">
               <span className="text-[10px] font-mono font-bold uppercase text-teal-800 tracking-wider block">
-                LAYER 2: SAMUDRA AI AGENTIC REASONING & COLLABORATIVE NETWORK
+                LAYER 2: MATSYA AI AGENTIC REASONING & COLLABORATIVE NETWORK
               </span>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
                 {AGENTS_LIST.slice(0, 4).map((agent) => (
@@ -359,7 +359,7 @@ export const TechnologyView: React.FC<TechnologyViewProps> = ({ onNavigate, onOp
           <div>
             <h2 className="text-xl font-bold text-[#111111]">Explainable AI & Grounding Principles</h2>
             <p className="text-xs text-[#666666]">
-              Every recommendation output by SAMUDRA AI is strictly grounded with full sensor lineage and verifiable citations.
+              Every recommendation output by MATSYA AI is strictly grounded with full sensor lineage and verifiable citations.
             </p>
           </div>
 

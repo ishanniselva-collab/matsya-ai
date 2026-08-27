@@ -1,6 +1,6 @@
 {
-  "name": "SAMUDRA AI",
-  "description": "SAMUDRA AI: Marine Ecosystem Reasoning with Collaborative Agents powered by agentic AI for Earth observation, oceanographic analytics, fisherman voice safety, and ISRO research.",
+  "name": "MATSYA AI",
+  "description": "MATSYA AI: Marine Ecosystem Reasoning with Collaborative Agents powered by agentic AI for Earth observation, oceanographic analytics, fisherman voice safety, and ISRO research.",
   "requestFramePermissions": [
     "microphone"
   ],

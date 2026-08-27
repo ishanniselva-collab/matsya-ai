@@ -42,7 +42,7 @@ export const ServicesView: React.FC<ServicesViewProps> = ({ onNavigate, onOpenVo
             <span>Operational Marine Solutions</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#111111]">
-            SAMUDRA AI Marine Intelligence Services
+            MATSYA AI Marine Intelligence Services
           </h1>
           <p className="text-sm text-[#555555] max-w-3xl leading-relaxed">
             Scientifically calibrated maritime services combining satellite thermal-optical retrievals, 

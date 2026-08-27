@@ -126,7 +126,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
     about: {
       title: 'About',
       items: [
-        { label: 'About SAMUDRA', desc: 'Mission, vision and scientific foundation', view: 'about' },
+        { label: 'About MATSYA', desc: 'Mission, vision and scientific foundation', view: 'about' },
         { label: 'Our Approach', desc: 'Bridging space science and human livelihoods', view: 'about' },
         { label: 'Institutional Partners', desc: 'ISRO SAC, INCOIS, Coast Guard & MoES', view: 'about' },
         { label: 'Impact & Metrics', desc: 'Safety outcomes, fuel savings and outreach', view: 'about' },
@@ -160,7 +160,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
             {/* Primary Project Name & SIH Badge */}
             <div className="flex items-center gap-2">
               <span className="font-extrabold text-sm sm:text-base tracking-tight text-[#111111] font-mono leading-none">
-                SAMUDRA AI
+                MATSYA AI
               </span>
               <span className="text-[9px] px-1.5 py-0.5 rounded font-mono font-bold bg-[#F7F7F5] text-[#555555] border border-[#E5E5E5] leading-none">
                 SIH26176
@@ -436,7 +436,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           </div>
         </nav>
 
-        {/* Right Actions: Sound-Effect Control, Language, Ask SAMUDRA, Login / Profile */}
+        {/* Right Actions: Sound-Effect Control, Language, Ask MATSYA, Login / Profile */}
         <div className="flex items-center gap-2 sm:gap-2.5">
           
           {/* UI Sound Effects Toggle (Completely separate from background video) */}
@@ -507,7 +507,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
             )}
           </div>
 
-          {/* SAMUDRA Voice AI Trigger */}
+          {/* MATSYA Voice AI Trigger */}
           <button
             id="header-ask-samudra-voice-btn"
             onClick={() => {
@@ -692,7 +692,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
               onClick={() => handleDropdownItemClick('about')}
               className={`p-2.5 rounded-lg text-left font-bold ${currentView === 'about' ? 'bg-[#111111] text-white' : 'bg-[#F7F7F5] text-[#111111]'}`}
             >
-              About SAMUDRA
+              About MATSYA
             </button>
           </div>
 

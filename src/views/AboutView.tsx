@@ -47,7 +47,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenVoiceMod
             <span>Institutional Mission & Ecosystem</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#111111]">
-            About SAMUDRA AI
+            About MATSYA AI
           </h1>
           <p className="text-sm text-[#555555] max-w-3xl leading-relaxed">
             Marine Ecosystem Reasoning & Oceanographic Intelligence (SIH26176) is an autonomous Earth Observation intelligence ecosystem designed to bridge spaceborne remote sensing and coastal livelihoods.
@@ -84,7 +84,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenVoiceMod
               Core Principles
             </h2>
             <p className="text-2xl font-bold text-[#111111]">
-              The SAMUDRA AI Three-Pillar Architecture
+              The MATSYA AI Three-Pillar Architecture
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenVoiceMod
               </span>
               <h3 className="font-bold text-sm text-[#111111]">Zero Digital Divide</h3>
               <p className="text-xs text-[#555555] leading-relaxed">
-                By prioritizing natural voice interaction across 8 regional Indian dialects, SAMUDRA AI ensures that seafarers with low literacy can access satellite intelligence as easily as talking to a fellow navigator.
+                By prioritizing natural voice interaction across 8 regional Indian dialects, MATSYA AI ensures that seafarers with low literacy can access satellite intelligence as easily as talking to a fellow navigator.
               </p>
             </div>
 
@@ -106,7 +106,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenVoiceMod
               </span>
               <h3 className="font-bold text-sm text-[#111111]">Multi-Agent Scientific Rigor</h3>
               <p className="text-xs text-[#555555] leading-relaxed">
-                Instead of a general LLM, SAMUDRA AI routes queries through 10 collaborative sub-agents specialized in oceanography, hydrodynamic waves, geofencing, and risk analysis.
+                Instead of a general LLM, MATSYA AI routes queries through 10 collaborative sub-agents specialized in oceanography, hydrodynamic waves, geofencing, and risk analysis.
               </p>
             </div>
 
@@ -199,7 +199,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenVoiceMod
           <div className="lg:col-span-5 space-y-4">
             <h2 className="text-xl font-bold text-[#111111]">Institutional Inquiries & Support</h2>
             <p className="text-xs text-[#555555] leading-relaxed">
-              Connect with the SAMUDRA AI engineering team, request custom satellite pipeline integrations, or register your coastal fishermen cooperative for voice terminal deployment.
+              Connect with the MATSYA AI engineering team, request custom satellite pipeline integrations, or register your coastal fishermen cooperative for voice terminal deployment.
             </p>
 
             <div className="space-y-2 pt-2 text-xs text-[#444444] font-mono">
@@ -219,7 +219,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onNavigate, onOpenVoiceMod
               <div className="p-8 bg-emerald-50 border border-emerald-200 rounded-2xl text-center space-y-2 text-emerald-900">
                 <CheckCircle2 className="w-8 h-8 text-emerald-600 mx-auto" />
                 <h3 className="font-bold text-sm">Message Transmitted Successfully</h3>
-                <p className="text-xs">Your inquiry has been logged with the SAMUDRA AI Maritime Coordination Desk.</p>
+                <p className="text-xs">Your inquiry has been logged with the MATSYA AI Maritime Coordination Desk.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="p-6 rounded-2xl border border-[#E5E5E5] bg-[#F7F7F5] space-y-4 text-xs">

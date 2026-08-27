@@ -118,7 +118,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLoginSu
             </div>
             <div>
               <h3 className="font-bold text-sm tracking-tight font-mono uppercase">
-                SAMUDRA AI Platform
+                MATSYA AI Platform
               </h3>
               <p className="text-xs text-neutral-300">
                 Authorized Operations & Research Portal Access
@@ -236,7 +236,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onLoginSu
                   disabled={isLoading}
                   className="w-full py-2.5 bg-[#111111] hover:bg-black text-white text-xs font-bold rounded-lg shadow-xs transition flex items-center justify-center gap-2"
                 >
-                  {isLoading ? 'Authenticating with Central CAS...' : 'Access SAMUDRA Operations System'}
+                  {isLoading ? 'Authenticating with Central CAS...' : 'Access MATSYA Operations System'}
                 </button>
               </div>
 

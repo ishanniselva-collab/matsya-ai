@@ -206,7 +206,7 @@ export async function generateMarineReport(params: {
 
   return {
     id: `REP-${Date.now()}`,
-    title: `SAMUDRA AI Marine Intelligence Assessment: ${params.region}`,
+    title: `MATSYA AI Marine Intelligence Assessment: ${params.region}`,
     region: params.region,
     date: '22 Aug 2026',
     timeframe: params.timeframe || 'Last 30 Days',
@@ -285,11 +285,11 @@ function simulateLocalOrchestration(
   let answerLocal = '';
 
   if (isPFZQuery || (!isSafetyQuery && !isProductivityQuery)) {
-    answerEn = `SAMUDRA AI has identified 2 highly favourable Potential Fishing Zones (PFZs) off the Coromandel coast. The nearest zone is situated 38 km Northeast (Bearing 045°). Sea Surface Temperature is 28.3°C with a high chlorophyll-a front (2.6 mg/m³). Wave heights are calm at 0.8m with wind speeds under 14 km/h. Navigational risk is LOW and safe for fishing.`;
+    answerEn = `MATSYA AI has identified 2 highly favourable Potential Fishing Zones (PFZs) off the Coromandel coast. The nearest zone is situated 38 km Northeast (Bearing 045°). Sea Surface Temperature is 28.3°C with a high chlorophyll-a front (2.6 mg/m³). Wave heights are calm at 0.8m with wind speeds under 14 km/h. Navigational risk is LOW and safe for fishing.`;
     spokenEn = `The nearest favourable fishing zone is 38 kilometres northeast. Water temperature is 28.3 degrees and wave conditions are calm at 0.8 metres. Marine risk is low.`;
     
     if (lang === 'ta') {
-      answerLocal = `சமுத்ரா AI (SAMUDRA AI) 38 கி.மீ வடகிழக்கில் சாதகமான மீன்பிடி மண்டலத்தை (PFZ) கண்டறிந்துள்ளது. கடல் வெப்பநிலை 28.3°C, குளோரோபில் அளவு அதிகம் (2.6 mg/m³). அலை உயரம் 0.8 மீட்டர் மட்டுமே உள்ளதால் கடல் நிலை பாதுகாப்பானது.`;
+      answerLocal = `சமுத்ரா AI (MATSYA AI) 38 கி.மீ வடகிழக்கில் சாதகமான மீன்பிடி மண்டலத்தை (PFZ) கண்டறிந்துள்ளது. கடல் வெப்பநிலை 28.3°C, குளோரோபில் அளவு அதிகம் (2.6 mg/m³). அலை உயரம் 0.8 மீட்டர் மட்டுமே உள்ளதால் கடல் நிலை பாதுகாப்பானது.`;
     } else if (lang === 'hi') {
       answerLocal = `समुद्रा एआई ने 38 किमी उत्तर-पूर्व में अनुकूल संभावित मत्स्य पालन क्षेत्र (PFZ) की पहचान की है। समुद्र का तापमान 28.3°C है और लहरें 0.8 मीटर पर शांत हैं। आज मछली पकड़ने के लिए जोखिम कम और सुरक्षित है।`;
     }

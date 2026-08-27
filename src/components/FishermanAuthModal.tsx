@@ -42,7 +42,7 @@ export const FishermanAuthModal: React.FC<FishermanAuthModalProps> = ({
           <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md mx-auto mb-3 flex items-center justify-center">
             <Anchor className="w-8 h-8 text-white" />
           </div>
-          <h2 className="text-2xl font-bold text-white mb-1">SAMUDRA AI</h2>
+          <h2 className="text-2xl font-bold text-white mb-1">MATSYA AI</h2>
           <p className="text-teal-100 text-sm font-medium">Fisherman Companion</p>
         </div>
 
@@ -83,7 +83,7 @@ export const FishermanAuthModal: React.FC<FishermanAuthModalProps> = ({
             onClick={handleContinue}
             className="w-full px-6 py-3.5 rounded-lg bg-teal-600 hover:bg-teal-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-semibold text-sm flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-all disabled:shadow-none"
           >
-            <span>Continue to SAMUDRA AI</span>
+            <span>Continue to MATSYA AI</span>
             <ArrowRight className="w-4 h-4" />
           </button>
 
@@ -92,7 +92,7 @@ export const FishermanAuthModal: React.FC<FishermanAuthModalProps> = ({
             <div className="flex items-start gap-2 text-xs text-[#666666]">
               <Waves className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
               <p className="leading-relaxed">
-                SAMUDRA AI will provide voice-first fishing zone intelligence, weather alerts,
+                MATSYA AI will provide voice-first fishing zone intelligence, weather alerts,
                 sea-state conditions, and safe route guidance in your language.
               </p>
             </div>

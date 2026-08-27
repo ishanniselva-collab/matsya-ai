@@ -152,7 +152,7 @@ export const FishermanTripHistory: React.FC<FishermanTripHistoryProps> = ({
         <Fish className="w-12 h-12 text-gray-400 mb-3" />
         <h3 className="text-lg font-bold text-gray-900 mb-1">No Trip History</h3>
         <p className="text-sm text-gray-600 max-w-xs">
-          Your fishing trips will be recorded here. Start your first trip by asking SAMUDRA
+          Your fishing trips will be recorded here. Start your first trip by asking MATSYA
           where to go!
         </p>
       </div>

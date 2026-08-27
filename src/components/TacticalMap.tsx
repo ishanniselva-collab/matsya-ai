@@ -27,7 +27,7 @@ interface TacticalMapProps {
   centerLat?: number;
   centerLng?: number;
   onAskOrcaPFZ?: (pfz: PFZZone) => void;
-  onAskSamudraPFZ?: (pfz: PFZZone) => void;
+  onAskMatsyaPFZ?: (pfz: PFZZone) => void;
   pfzZones?: PFZZone[];
   isLoading?: boolean;
 }
@@ -41,7 +41,7 @@ export const TacticalMap: React.FC<TacticalMapProps> = ({
   centerLat = 13.0827,
   centerLng = 80.2707,
   onAskOrcaPFZ,
-  onAskSamudraPFZ,
+  onAskMatsyaPFZ,
   pfzZones,
   isLoading = false,
 }) => {
@@ -437,13 +437,13 @@ export const TacticalMap: React.FC<TacticalMapProps> = ({
             <div className="mt-2.5 flex items-center gap-2">
               <button
                 onClick={() => {
-                  if (onAskSamudraPFZ) onAskSamudraPFZ(inspectedPFZ);
+                  if (onAskMatsyaPFZ) onAskMatsyaPFZ(inspectedPFZ);
                   else if (onAskOrcaPFZ) onAskOrcaPFZ(inspectedPFZ);
                 }}
                 className="flex-1 py-1.5 px-2.5 bg-[#111111] hover:bg-black text-white rounded-lg font-medium text-[11px] flex items-center justify-center gap-1.5 shadow-sm transition"
               >
                 <Sparkles className="w-3.5 h-3.5 text-teal-300" />
-                <span>Ask SAMUDRA AI Reasoning</span>
+                <span>Ask MATSYA AI Reasoning</span>
               </button>
             </div>
           </div>

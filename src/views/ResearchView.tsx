@@ -71,11 +71,11 @@ export const ResearchView: React.FC<ResearchViewProps> = ({ onNavigate }) => {
               <span>Scientific Publications & Causal Knowledge Engine</span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[#111111]">
-              SAMUDRA AI Marine Research & Analytics
+              MATSYA AI Marine Research & Analytics
             </h1>
             <p className="text-sm text-[#555555] leading-relaxed">
               Curated peer-reviewed oceanographic studies, satellite remote sensing validation trials, 
-              and 4-tier causal attribution models powered by SAMUDRA AI multi-agent telemetry.
+              and 4-tier causal attribution models powered by MATSYA AI multi-agent telemetry.
             </p>
           </div>
 
