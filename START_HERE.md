@@ -95,15 +95,23 @@ This gives you:
 
 ### Architecture & Planning:
 
-12. **`ACTUAL_TECHNICAL_IMPLEMENTATION.md`** ⚠️⚠️⚠️
-    - **READ THIS BEFORE PRESENTING!**
+12. **`SIMPLE_TRUTH.md`** ⚠️⚠️⚠️ **START HERE!**
+    - **EASIEST TO UNDERSTAND!**
+    - What's real vs what's fake (simple language)
+    - Video game analogy
+    - Quick YES/NO answers
+    - How to explain to judges
+    - Perfect for first-time reading
+
+13. **`ACTUAL_TECHNICAL_IMPLEMENTATION.md`** ⚠️⚠️⚠️
+    - **MORE TECHNICAL VERSION**
     - What's ACTUALLY implemented vs documented
     - Reality: Simulated data, in-memory storage (no database)
     - What's real: AI, ML model, frontend, voice
     - Honest comparison table
-    - How to answer judge questions
+    - Detailed technical breakdown
 
-13. **`FINAL_IMPLEMENTATION_PLAN.md`**
+14. **`FINAL_IMPLEMENTATION_PLAN.md`**
     - Original implementation plan
     - What was done
     - What remains (nothing critical!)
