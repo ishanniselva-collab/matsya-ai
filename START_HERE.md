@@ -95,7 +95,15 @@ This gives you:
 
 ### Architecture & Planning:
 
-12. **`FINAL_IMPLEMENTATION_PLAN.md`**
+12. **`ACTUAL_TECHNICAL_IMPLEMENTATION.md`** ⚠️⚠️⚠️
+    - **READ THIS BEFORE PRESENTING!**
+    - What's ACTUALLY implemented vs documented
+    - Reality: Simulated data, in-memory storage (no database)
+    - What's real: AI, ML model, frontend, voice
+    - Honest comparison table
+    - How to answer judge questions
+
+13. **`FINAL_IMPLEMENTATION_PLAN.md`**
     - Original implementation plan
     - What was done
     - What remains (nothing critical!)

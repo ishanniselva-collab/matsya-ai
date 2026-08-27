@@ -58,25 +58,28 @@ Open your Railway URL
 
 ## 📚 DOCUMENTATION FILES
 
+**⚠️ MUST READ FIRST:**
+1. **`ACTUAL_TECHNICAL_IMPLEMENTATION.md`** ⚠️⚠️⚠️ - **What's ACTUALLY implemented** (simulated data, no database)
+
 **Start Here:**
-1. **`START_HERE.md`** - Navigation hub for all documentation
-2. **`CONNECT_AI_STUDIO.md`** ⭐ - 3-step Google AI setup (DEPLOY NOW!)
-3. **`DOCUMENTATION_INDEX.md`** - Complete documentation index with reading paths
+2. **`START_HERE.md`** - Navigation hub for all documentation
+3. **`CONNECT_AI_STUDIO.md`** ⭐ - 3-step Google AI setup (DEPLOY NOW!)
+4. **`DOCUMENTATION_INDEX.md`** - Complete documentation index with reading paths
 
 **Architecture & Presentations:**
-4. **`MATSYA_AI_DIAGRAM_SIMPLE.md`** ⭐⭐⭐ - Visual architecture diagrams (perfect for presentations!)
-5. **`MATSYA_AI_ARCHITECTURE.md`** - Complete technical architecture with Mermaid diagrams
+5. **`MATSYA_AI_DIAGRAM_SIMPLE.md`** ⭐⭐⭐ - Visual architecture diagrams (perfect for presentations!)
+6. **`MATSYA_AI_ARCHITECTURE.md`** - Complete technical architecture with Mermaid diagrams
 
 **Detailed Guides:**
-6. **`GOOGLE_AI_STUDIO_SETUP.md`** - Complete AI Studio integration guide
-7. **`DEPLOYMENT_GUIDE.md`** - Detailed deployment options
-8. **`DEPLOY_CHECKLIST.md`** - Step-by-step checklist
-9. **`START_HERE_DEPLOYMENT.md`** - Quick deployment guide
+7. **`GOOGLE_AI_STUDIO_SETUP.md`** - Complete AI Studio integration guide
+8. **`DEPLOYMENT_GUIDE.md`** - Detailed deployment options
+9. **`DEPLOY_CHECKLIST.md`** - Step-by-step checklist
+10. **`START_HERE_DEPLOYMENT.md`** - Quick deployment guide
 
 **Technical Documentation:**
-10. **`PRODUCTION_READY_SUMMARY.md`** - Implementation status
-11. **`STATUS_REPORT_COMPREHENSIVE.md`** - Full technical details
-12. **`QUICK_START_GUIDE.md`** - Testing instructions
+11. **`PRODUCTION_READY_SUMMARY.md`** - Implementation status
+12. **`STATUS_REPORT_COMPREHENSIVE.md`** - Full technical details
+13. **`QUICK_START_GUIDE.md`** - Testing instructions
 
 ---
 
